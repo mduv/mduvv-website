@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mohan Duvvuri — Personal Website
 
-## Getting Started
+Portfolio site for [mohanduvvuri.com](https://mohanduvvuri.com).
 
-First, run the development server:
+I'm a software engineer specializing in AI-powered full-stack and mobile applications. I've built production LLM pipelines, RAG systems, real-time voice agents, and iOS apps — including **FrontIQ** (AI voice automation at Toga Software) and **Hoopli**, a live App Store NBA trivia game with subscription monetization and real-time analytics.
+
+This site is the public home for that work: who I am, where I've been, what I've shipped, and how to reach me.
+
+## What's on the site
+
+- **Home** — Intro with an animated typewriter tagline, about section, skills, education at UC Santa Cruz, and interests outside of code
+- **Timeline** — Career journey from UCSC through Techvox and Toga Software
+- **Projects** — Pinned work from GitHub, including PodPix, Hoopli, systems coursework, and this site
+- **Contact** — Email, phone, social links, and a message form
+
+## Design
+
+Modern, minimal layout inspired by clean developer portfolios — but with its own identity:
+
+- **Sora** headings + **Inter** body text
+- Off-white / charcoal palette with deep blue accents
+- Scroll animations and a fixed "Let's talk" call-to-action
+- Mobile-friendly hamburger navigation
+
+## Tech stack
+
+- [Next.js](https://nextjs.org) (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide icons
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build   # production build
+npm run start   # serve production build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Updating content
 
-## Learn More
+All copy and lists live in typed data files under `src/data/` — edit these instead of hunting through components:
 
-To learn more about Next.js, take a look at the following resources:
+| File | Content |
+|------|---------|
+| `site.ts` | Name, bio, stats, contact info, typewriter phrases, social links |
+| `experience.ts` | Timeline roles and bullet points |
+| `projects.ts` | Featured project cards |
+| `skills.ts` | Skill categories |
+| `education.ts` | UCSC education spotlight |
+| `interests.ts` | Hobbies (volleyball, etc.) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The site is meant to deploy on **Vercel**, with `mohanduvvuri.com` pointed via **Cloudflare DNS**.
 
-## Deploy on Vercel
+Full steps: [DEPLOYMENT.md](./DEPLOYMENT.md)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Portfolio: [mohanduvvuri.com](https://mohanduvvuri.com)
+- GitHub: [github.com/mduv](https://github.com/mduv)
+- Email: mohandas.duvvuri@gmail.com
