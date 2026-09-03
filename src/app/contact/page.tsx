@@ -74,7 +74,7 @@ export default function ContactPage() {
                 <LinkedInIcon className="h-5 w-5 text-accent" />
                 <div>
                   <p className="text-xs text-charcoal/50">LinkedIn</p>
-                  <p className="text-sm">linkedin.com/in/mohanduvvuri</p>
+                  <p className="text-sm">linkedin.com/in/mohan-duvvuri</p>
                 </div>
               </a>
             </div>

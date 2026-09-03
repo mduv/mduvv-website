@@ -23,7 +23,7 @@ export const siteConfig = {
   ],
   social: {
     github: "https://github.com/mduv",
-    linkedin: "https://linkedin.com/in/mohanduvvuri",
+    linkedin: "https://www.linkedin.com/in/mohan-duvvuri/",
     email: "mailto:mohandas.duvvuri@gmail.com",
   },
   navLinks: [
