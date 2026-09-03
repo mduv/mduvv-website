@@ -19,7 +19,7 @@ export const siteConfig = {
   stats: [
     { value: "2+", label: "Years Experience" },
     { value: "2", label: "Products Shipped" },
-    { value: "3.6", label: "GPA at UCSC" },
+    { value: "NCAA", label: "Athlete" },
   ],
   social: {
     github: "https://github.com/mduv",
